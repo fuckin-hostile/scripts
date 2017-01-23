@@ -12,7 +12,7 @@ sysidloc=/etc/sysconfig/rhn/systemid
 serverurl=<satellite server url>
 user=<satellite user>
 pass=<satellite pasword>
-actkey=<satellite access key>
+actkey=<satellite activation key>
 
 # Check if running as root
 if [ $(id -u) -ne 0 ]; then echo 'This needs to be run as a root'; exit 2; fi
